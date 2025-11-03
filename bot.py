@@ -6,7 +6,7 @@ import io
 import textwrap
 
 # Токен берём из переменных среды Render
-TOKEN = os.environ.get("TOKEN")
+TOKEN = os.environ.get("8437665636:AAFMObavl2iNYRSLMIRsSbuF7Ge6ZeakE9g")
 if not TOKEN:
     raise ValueError("Не указан токен бота. Добавьте переменную среды TOKEN в Render.com")
 
@@ -75,3 +75,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
